@@ -1,5 +1,5 @@
  <h1 align="center">HELLO! I'm Mifuyu! 😊
-
+![]
 <h3 align="left">🌸About me:</h3>
 Hello, everyone. My name is Mifuyu Ichimura from Reitaku University. My major is English & Liveral Arts, so I'm studying not only English but also culture, history, society, literature, philosophy,and psychology. Why I choose this corse is because I wanted to study a lot of kinds of studies in English, open my mind and explore more about my the most interesting studies! However, I haven't studied about the programing and technology ever,so I'm a little bit nervus how I can do it well,,,,BUT! I'm so excited to learn about GIS!! It's challenge for me, I'll do the best!!!!
 <h3 align="left">★Club/Circle:</h3>
