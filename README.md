@@ -31,4 +31,3 @@ Hello, everyone. My name is Mifuyu Ichimura from Reitaku University. My major is
 
 <h3 align="left">★My Fav Place</h3>
 
-test
