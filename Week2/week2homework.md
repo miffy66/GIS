@@ -1,8 +1,7 @@
 # My Second Hometown Matsumoto City, NAGANO 
 
 [地理院地図（電子国土Web）|長野県松本市](https://maps.gsi.go.jp/#14/36.241077/137.975950/&base=std&ls=std&disp=1&vs=c1g1j0h0k0l0u0t0z0r0s0m0f1)
-
-![Alt text](image-3.png)
+![Alt text](image-1.png) 
 
 ## Let's review the map!
 ### Why did you choose this map?
