@@ -14,7 +14,7 @@ Hello, everyone. My name is Mifuyu Ichimura from Reitaku University. My major is
 -🎶Music Club 
 
 <h3 align="left">★Activities:</h3>
--💙iFloor Support Student Staff (Englsih)
+-💙iFloor Support Student Staff (Englsih and Korean)
 
 <h3 align="left">★Hobbies:</h3>
 -🍿Watching movies & TV shows on Netflix & Disney+
