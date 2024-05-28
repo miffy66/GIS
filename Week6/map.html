@@ -12,7 +12,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b284e0beaed7dec088f6ef9c716faf30 {
+                #map_81438f70fbf497269a2b70d061535c8f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_b284e0beaed7dec088f6ef9c716faf30" ></div>
+            <div class="folium-map" id="map_81438f70fbf497269a2b70d061535c8f" ></div>
         
 </body>
 <script>
     
     
-            var map_b284e0beaed7dec088f6ef9c716faf30 = L.map(
-                "map_b284e0beaed7dec088f6ef9c716faf30",
+            var map_81438f70fbf497269a2b70d061535c8f = L.map(
+                "map_81438f70fbf497269a2b70d061535c8f",
                 {
                     center: [32.634731682222224, 132.51008841851854],
                     crs: L.CRS.EPSG3857,
@@ -60,102 +60,118 @@
 
         
     
-            var tile_layer_aaf0480239790154cd48501ac9b98db1 = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            var tile_layer_f1a89a2d8c379cd2c9366157cdae7bee = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
         
     
-            var tile_layer_6d9ba929b6f75cd0cb8ebfee71fff5e8 = L.tileLayer(
+            tile_layer_f1a89a2d8c379cd2c9366157cdae7bee.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_022421171a680fa6f4ffa1eada134f62 = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var tile_layer_5fa87f9a68fbb9e98fd5de0aeed4812e = L.tileLayer(
+            tile_layer_022421171a680fa6f4ffa1eada134f62.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_51bf973659480cdbef279336523105e2 = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/gazo4/{z}/{x}/{y}.jpg",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var tile_layer_8a0b308baa7fa369c775641564ca8211 = L.tileLayer(
+            tile_layer_51bf973659480cdbef279336523105e2.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_f2bc7385f2ad6ede1a93c742a1e62512 = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/gazo3/{z}/{x}/{y}.jpg",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var tile_layer_b10b0e3ebc7e121ffa39efe2493e0221 = L.tileLayer(
+            tile_layer_f2bc7385f2ad6ede1a93c742a1e62512.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_6e2aa152a487c6dac52eb4bcbc6a27c8 = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/gazo2/{z}/{x}/{y}.jpg",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var tile_layer_6cd4f77e7039cc3c10adbda925819aaf = L.tileLayer(
+            tile_layer_6e2aa152a487c6dac52eb4bcbc6a27c8.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_f335cb5b8d2ffe5669cfbaa10a4bd654 = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/gazo1/{z}/{x}/{y}.jpg",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var tile_layer_b818784010940993939be28825602d3e = L.tileLayer(
+            tile_layer_f335cb5b8d2ffe5669cfbaa10a4bd654.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var tile_layer_c4dc2b136d5c0f4671d00f032f025b7e = L.tileLayer(
                 "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{z}/{x}/{y}.png",
                 {"attribution": "\u56fd\u571f\u5730\u7406\u9662", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            );
         
     
-            var layer_control_a292e6ad4680f99072a6d13150f0ad95 = {
+            tile_layer_c4dc2b136d5c0f4671d00f032f025b7e.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            var layer_control_b3237ba8b1ecf3aab66160d5ea6822d5_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_aaf0480239790154cd48501ac9b98db1,
-                    "2007\u5e74\u4ee5\u964d" : tile_layer_6d9ba929b6f75cd0cb8ebfee71fff5e8,
-                    "1987\u5e74\uff5e1990\u5e74" : tile_layer_5fa87f9a68fbb9e98fd5de0aeed4812e,
-                    "1984\u5e74\uff5e1986\u5e74" : tile_layer_8a0b308baa7fa369c775641564ca8211,
-                    "1979\u5e74\uff5e1983\u5e74" : tile_layer_b10b0e3ebc7e121ffa39efe2493e0221,
-                    "1974\u5e74\uff5e1978\u5e74" : tile_layer_6cd4f77e7039cc3c10adbda925819aaf,
-                    "1961\u5e74\uff5e1969\u5e74" : tile_layer_b818784010940993939be28825602d3e,
+                    "openstreetmap" : tile_layer_f1a89a2d8c379cd2c9366157cdae7bee,
+                    "2007\u5e74\u4ee5\u964d" : tile_layer_022421171a680fa6f4ffa1eada134f62,
+                    "1987\u5e74\uff5e1990\u5e74" : tile_layer_51bf973659480cdbef279336523105e2,
+                    "1984\u5e74\uff5e1986\u5e74" : tile_layer_f2bc7385f2ad6ede1a93c742a1e62512,
+                    "1979\u5e74\uff5e1983\u5e74" : tile_layer_6e2aa152a487c6dac52eb4bcbc6a27c8,
+                    "1974\u5e74\uff5e1978\u5e74" : tile_layer_f335cb5b8d2ffe5669cfbaa10a4bd654,
+                    "1961\u5e74\uff5e1969\u5e74" : tile_layer_c4dc2b136d5c0f4671d00f032f025b7e,
                 },
                 overlays :  {
                 },
             };
-            L.control.layers(
-                layer_control_a292e6ad4680f99072a6d13150f0ad95.base_layers,
-                layer_control_a292e6ad4680f99072a6d13150f0ad95.overlays,
+            let layer_control_b3237ba8b1ecf3aab66160d5ea6822d5 = L.control.layers(
+                layer_control_b3237ba8b1ecf3aab66160d5ea6822d5_layers.base_layers,
+                layer_control_b3237ba8b1ecf3aab66160d5ea6822d5_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
-            tile_layer_6d9ba929b6f75cd0cb8ebfee71fff5e8.remove();
-            tile_layer_5fa87f9a68fbb9e98fd5de0aeed4812e.remove();
-            tile_layer_8a0b308baa7fa369c775641564ca8211.remove();
-            tile_layer_b10b0e3ebc7e121ffa39efe2493e0221.remove();
-            tile_layer_6cd4f77e7039cc3c10adbda925819aaf.remove();
-            tile_layer_b818784010940993939be28825602d3e.remove();
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
+
         
     
-            var marker_aa314279df0cb88427664d70d71a56df = L.marker(
+            var marker_f1bf177c9a2d22889e669f4b637ceab8 = L.marker(
                 [34.40817299, 132.4673863],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_aa69e85a7ee6f34f4ad60c5562776a9c = L.AwesomeMarkers.icon(
+            var icon_522318965984fe8a5094d08763aa6617 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_aa314279df0cb88427664d70d71a56df.setIcon(icon_aa69e85a7ee6f34f4ad60c5562776a9c);
+            marker_f1bf177c9a2d22889e669f4b637ceab8.setIcon(icon_522318965984fe8a5094d08763aa6617);
         
     
-        var popup_b7e048f791402223995849b597be0b2f = L.popup({"maxWidth": "100%"});
+        var popup_e9cc37402a18a3180df2abb4a12cc140 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_b6732cb4fcabf7680671b493aeda2606 = $(`<div id="html_b6732cb4fcabf7680671b493aeda2606" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_b7e048f791402223995849b597be0b2f.setContent(html_b6732cb4fcabf7680671b493aeda2606);
+                var html_2062a2acad5614e64044629e953301c6 = $(`<div id="html_2062a2acad5614e64044629e953301c6" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_e9cc37402a18a3180df2abb4a12cc140.setContent(html_2062a2acad5614e64044629e953301c6);
             
         
 
-        marker_aa314279df0cb88427664d70d71a56df.bindPopup(popup_b7e048f791402223995849b597be0b2f)
+        marker_f1bf177c9a2d22889e669f4b637ceab8.bindPopup(popup_e9cc37402a18a3180df2abb4a12cc140)
         ;
 
         
     
     
-            marker_aa314279df0cb88427664d70d71a56df.bindTooltip(
+            marker_f1bf177c9a2d22889e669f4b637ceab8.bindTooltip(
                 `<div>
                      広島平和記念資料館
                  </div>`,
@@ -163,34 +179,34 @@
             );
         
     
-            var marker_d7e482d28b8336f3e01a7be660a2a75f = L.marker(
+            var marker_bdf7528c6f03384f6cbdf8541796fdf7 = L.marker(
                 [34.39613812, 132.4536778],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_17f475f948bcfdab35a959da32ce752a = L.AwesomeMarkers.icon(
+            var icon_f151e90ea092e9f2ab184556a2d0cd0c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_d7e482d28b8336f3e01a7be660a2a75f.setIcon(icon_17f475f948bcfdab35a959da32ce752a);
+            marker_bdf7528c6f03384f6cbdf8541796fdf7.setIcon(icon_f151e90ea092e9f2ab184556a2d0cd0c);
         
     
-        var popup_0a34398913e99b056bcdf7c2c63c6705 = L.popup({"maxWidth": "100%"});
+        var popup_f5e7e08f88986bba9f396b7bcd54297a = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_351eb3c91e9833dda108cbc4afb81277 = $(`<div id="html_351eb3c91e9833dda108cbc4afb81277" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_0a34398913e99b056bcdf7c2c63c6705.setContent(html_351eb3c91e9833dda108cbc4afb81277);
+                var html_d16c62fd8d35cf5c50d25801030067fd = $(`<div id="html_d16c62fd8d35cf5c50d25801030067fd" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_f5e7e08f88986bba9f396b7bcd54297a.setContent(html_d16c62fd8d35cf5c50d25801030067fd);
             
         
 
-        marker_d7e482d28b8336f3e01a7be660a2a75f.bindPopup(popup_0a34398913e99b056bcdf7c2c63c6705)
+        marker_bdf7528c6f03384f6cbdf8541796fdf7.bindPopup(popup_f5e7e08f88986bba9f396b7bcd54297a)
         ;
 
         
     
     
-            marker_d7e482d28b8336f3e01a7be660a2a75f.bindTooltip(
+            marker_bdf7528c6f03384f6cbdf8541796fdf7.bindTooltip(
                 `<div>
                      広島 原爆ドーム
                  </div>`,
@@ -198,37 +214,37 @@
             );
         
     
-            var marker_806925ceef7a5328fe65844e0a4326aa = L.marker(
+            var marker_79d057caed9aca48a3ccd6670802f22b = L.marker(
                 [34.39331227, 132.4523488],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_ded665a25983f6462e709e1214987166 = L.AwesomeMarkers.icon(
+            var icon_8d9164caaadcb692bf3a710a9225bb1b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_806925ceef7a5328fe65844e0a4326aa.setIcon(icon_ded665a25983f6462e709e1214987166);
+            marker_79d057caed9aca48a3ccd6670802f22b.setIcon(icon_8d9164caaadcb692bf3a710a9225bb1b);
         
     
-        var popup_0da9bd186dcdecb8dfa14513ee46ee1e = L.popup({"maxWidth": "100%"});
+        var popup_d05db1a5d8d5efc028b5ebb270fefe81 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_006332899e940017d3eb870850cd7639 = $(`<div id="html_006332899e940017d3eb870850cd7639" style="width: 100.0%; height: 100.0%;"><div style="width:350px">所在】広島県広島市中区大手町1丁目10
+                var html_2d5f5b3d6e1cefcdac96ed0d3b196a8a = $(`<div id="html_2d5f5b3d6e1cefcdac96ed0d3b196a8a" style="width: 100.0%; height: 100.0%;"><div style="width:350px">所在】広島県広島市中区大手町1丁目10
  【利用料金】無料
  【駐車場】周辺の有料駐車場をご利用ください。
  【アクセス】JR広島駅から広島電鉄「原爆ドーム前」すぐ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　世界的に有名な負の遺産「原爆ドーム」は、第２次世界大戦末期に人類史上初めて使用された核兵器により、被爆しました。 ほぼ被爆した当時の姿のまま立ち続ける原爆ドームは、核兵器の惨禍を伝えるものであり、時代を超えて核兵器の廃絶と世界平和の大切さを訴え続けています。 また、ドーム近くの広島平和記念資料館にて被爆者の遺品や被爆の惨状を示す写真や資料を収集・展示し、広島の被爆前後の歩みや核時代の状況などについて紹介しています</div></div>`)[0];
-                popup_0da9bd186dcdecb8dfa14513ee46ee1e.setContent(html_006332899e940017d3eb870850cd7639);
+                popup_d05db1a5d8d5efc028b5ebb270fefe81.setContent(html_2d5f5b3d6e1cefcdac96ed0d3b196a8a);
             
         
 
-        marker_806925ceef7a5328fe65844e0a4326aa.bindPopup(popup_0da9bd186dcdecb8dfa14513ee46ee1e)
+        marker_79d057caed9aca48a3ccd6670802f22b.bindPopup(popup_d05db1a5d8d5efc028b5ebb270fefe81)
         ;
 
         
     
     
-            marker_806925ceef7a5328fe65844e0a4326aa.bindTooltip(
+            marker_79d057caed9aca48a3ccd6670802f22b.bindTooltip(
                 `<div>
                      広島平和記念公園
                  </div>`,
@@ -236,34 +252,34 @@
             );
         
     
-            var marker_b2ad3242f3b9fc59c23c2cfc2bd75b50 = L.marker(
+            var marker_0cf5dc722d49289f8b4b7f8c83d5c280 = L.marker(
                 [34.39544552, 132.4550527],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_3f090f90862db90956adf2eb24458a21 = L.AwesomeMarkers.icon(
+            var icon_ef2f76fa73300075f07f05a0236cda8e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_b2ad3242f3b9fc59c23c2cfc2bd75b50.setIcon(icon_3f090f90862db90956adf2eb24458a21);
+            marker_0cf5dc722d49289f8b4b7f8c83d5c280.setIcon(icon_ef2f76fa73300075f07f05a0236cda8e);
         
     
-        var popup_e9f3c4264341c39b2d775e4b78502629 = L.popup({"maxWidth": "100%"});
+        var popup_70068746175c6d31850878a8ec12f6a9 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_5ee90c1abc97144a8a9c1158dab4d355 = $(`<div id="html_5ee90c1abc97144a8a9c1158dab4d355" style="width: 100.0%; height: 100.0%;"><div style="width:350px">広島の原爆の爆心地は、相生橋の南東、島病院であった。 当初の投下目標は相生橋であったが、風の影響により流されたとされている。 この橋は広島市の中央を流れる太田川が分岐する地点にかけられたT字型の橋である。 特異な形状は、上空からでもその特徴がよく判別できるため、目標に選ばれた。</div></div>`)[0];
-                popup_e9f3c4264341c39b2d775e4b78502629.setContent(html_5ee90c1abc97144a8a9c1158dab4d355);
+                var html_985868f8abbb25e2725044d4c1551605 = $(`<div id="html_985868f8abbb25e2725044d4c1551605" style="width: 100.0%; height: 100.0%;"><div style="width:350px">広島の原爆の爆心地は、相生橋の南東、島病院であった。 当初の投下目標は相生橋であったが、風の影響により流されたとされている。 この橋は広島市の中央を流れる太田川が分岐する地点にかけられたT字型の橋である。 特異な形状は、上空からでもその特徴がよく判別できるため、目標に選ばれた。</div></div>`)[0];
+                popup_70068746175c6d31850878a8ec12f6a9.setContent(html_985868f8abbb25e2725044d4c1551605);
             
         
 
-        marker_b2ad3242f3b9fc59c23c2cfc2bd75b50.bindPopup(popup_e9f3c4264341c39b2d775e4b78502629)
+        marker_0cf5dc722d49289f8b4b7f8c83d5c280.bindPopup(popup_70068746175c6d31850878a8ec12f6a9)
         ;
 
         
     
     
-            marker_b2ad3242f3b9fc59c23c2cfc2bd75b50.bindTooltip(
+            marker_0cf5dc722d49289f8b4b7f8c83d5c280.bindTooltip(
                 `<div>
                      広島原子爆弾 爆心地
                  </div>`,
@@ -271,34 +287,34 @@
             );
         
     
-            var marker_b6916ca27832917d84b2c43c93cd10fc = L.marker(
+            var marker_a34a03a79d45cbf297c5d563218adfb3 = L.marker(
                 [32.77262813, 129.8652337],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_2fcbaa6fe0b1b219147f69d214923cb8 = L.AwesomeMarkers.icon(
+            var icon_da8fdd066e37bf3eba21d03ce68fc316 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_b6916ca27832917d84b2c43c93cd10fc.setIcon(icon_2fcbaa6fe0b1b219147f69d214923cb8);
+            marker_a34a03a79d45cbf297c5d563218adfb3.setIcon(icon_da8fdd066e37bf3eba21d03ce68fc316);
         
     
-        var popup_10b80b32c90dc3343fbb9404daf493ea = L.popup({"maxWidth": "100%"});
+        var popup_740125b3a01d9894ddd4661da1aadce6 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_6160e77aec579e624662369916a68b86 = $(`<div id="html_6160e77aec579e624662369916a68b86" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_10b80b32c90dc3343fbb9404daf493ea.setContent(html_6160e77aec579e624662369916a68b86);
+                var html_1e32b7782e765de80ad1ceeb34bcdb2a = $(`<div id="html_1e32b7782e765de80ad1ceeb34bcdb2a" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_740125b3a01d9894ddd4661da1aadce6.setContent(html_1e32b7782e765de80ad1ceeb34bcdb2a);
             
         
 
-        marker_b6916ca27832917d84b2c43c93cd10fc.bindPopup(popup_10b80b32c90dc3343fbb9404daf493ea)
+        marker_a34a03a79d45cbf297c5d563218adfb3.bindPopup(popup_740125b3a01d9894ddd4661da1aadce6)
         ;
 
         
     
     
-            marker_b6916ca27832917d84b2c43c93cd10fc.bindTooltip(
+            marker_a34a03a79d45cbf297c5d563218adfb3.bindTooltip(
                 `<div>
                      長崎原爆資料館
                  </div>`,
@@ -306,34 +322,34 @@
             );
         
     
-            var marker_cdff2c050a05fdcf501d09917c4a184e = L.marker(
+            var marker_93fa317cd7bb9cc6e4cb54a6d516fd68 = L.marker(
                 [32.77230337, 129.8649869],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_98b55272854eabf52637d0335db05f92 = L.AwesomeMarkers.icon(
+            var icon_ba641669860c2b2368af62f331dbf9d9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_cdff2c050a05fdcf501d09917c4a184e.setIcon(icon_98b55272854eabf52637d0335db05f92);
+            marker_93fa317cd7bb9cc6e4cb54a6d516fd68.setIcon(icon_ba641669860c2b2368af62f331dbf9d9);
         
     
-        var popup_a768e9e0c02cfa496af78237a315f445 = L.popup({"maxWidth": "100%"});
+        var popup_208775d55897abb6cc2d08b15d5372b1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_5f253a3fb7937fc317ec1abac334ae08 = $(`<div id="html_5f253a3fb7937fc317ec1abac334ae08" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_a768e9e0c02cfa496af78237a315f445.setContent(html_5f253a3fb7937fc317ec1abac334ae08);
+                var html_f193f68da638c404df2f2970560fee75 = $(`<div id="html_f193f68da638c404df2f2970560fee75" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_208775d55897abb6cc2d08b15d5372b1.setContent(html_f193f68da638c404df2f2970560fee75);
             
         
 
-        marker_cdff2c050a05fdcf501d09917c4a184e.bindPopup(popup_a768e9e0c02cfa496af78237a315f445)
+        marker_93fa317cd7bb9cc6e4cb54a6d516fd68.bindPopup(popup_208775d55897abb6cc2d08b15d5372b1)
         ;
 
         
     
     
-            marker_cdff2c050a05fdcf501d09917c4a184e.bindTooltip(
+            marker_93fa317cd7bb9cc6e4cb54a6d516fd68.bindTooltip(
                 `<div>
                      長崎原爆死没者 追悼平和祈念館
                  </div>`,
@@ -341,34 +357,34 @@
             );
         
     
-            var marker_73cdfb2a4036e5fcda46681b0faaf26c = L.marker(
+            var marker_074757594f46ef9f5c41d4b54fc9eded = L.marker(
                 [32.7739087, 129.8632918],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_5d817b66488d93c4eb22753a74c4f55a = L.AwesomeMarkers.icon(
+            var icon_afe03d3a607aa8de99abb02a14dbc210 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_73cdfb2a4036e5fcda46681b0faaf26c.setIcon(icon_5d817b66488d93c4eb22753a74c4f55a);
+            marker_074757594f46ef9f5c41d4b54fc9eded.setIcon(icon_afe03d3a607aa8de99abb02a14dbc210);
         
     
-        var popup_a6619f0bd0665ef1c0a9ddc1ed2fd900 = L.popup({"maxWidth": "100%"});
+        var popup_f74eed4c6af9c9807ef93e1c83b781e0 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_33efdf59ce0a8c15bf36ec7ab4a507cd = $(`<div id="html_33efdf59ce0a8c15bf36ec7ab4a507cd" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_a6619f0bd0665ef1c0a9ddc1ed2fd900.setContent(html_33efdf59ce0a8c15bf36ec7ab4a507cd);
+                var html_bd59de31ba104c6c4f54d4db21789f27 = $(`<div id="html_bd59de31ba104c6c4f54d4db21789f27" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_f74eed4c6af9c9807ef93e1c83b781e0.setContent(html_bd59de31ba104c6c4f54d4db21789f27);
             
         
 
-        marker_73cdfb2a4036e5fcda46681b0faaf26c.bindPopup(popup_a6619f0bd0665ef1c0a9ddc1ed2fd900)
+        marker_074757594f46ef9f5c41d4b54fc9eded.bindPopup(popup_f74eed4c6af9c9807ef93e1c83b781e0)
         ;
 
         
     
     
-            marker_73cdfb2a4036e5fcda46681b0faaf26c.bindTooltip(
+            marker_074757594f46ef9f5c41d4b54fc9eded.bindTooltip(
                 `<div>
                      長崎原子爆弾落下中心地碑
                  </div>`,
@@ -376,34 +392,34 @@
             );
         
     
-            var marker_0409e620c43e50b5178dbeaf1f3ddb44 = L.marker(
+            var marker_72aedbd51d66dcfb725aee995a373ef7 = L.marker(
                 [32.77338548, 129.8631416],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_467b9da0e72cae0dae5aea76a3e2ba96 = L.AwesomeMarkers.icon(
+            var icon_870ca257496b6b00c80e4b7f7704bd0c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_0409e620c43e50b5178dbeaf1f3ddb44.setIcon(icon_467b9da0e72cae0dae5aea76a3e2ba96);
+            marker_72aedbd51d66dcfb725aee995a373ef7.setIcon(icon_870ca257496b6b00c80e4b7f7704bd0c);
         
     
-        var popup_9744809f7727ddcd907c1ccd6b1802b5 = L.popup({"maxWidth": "100%"});
+        var popup_0a26305cbd63e8757b61b521b4c47a03 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9a22fdd9085d800e2df735b71c93a033 = $(`<div id="html_9a22fdd9085d800e2df735b71c93a033" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_9744809f7727ddcd907c1ccd6b1802b5.setContent(html_9a22fdd9085d800e2df735b71c93a033);
+                var html_32b76def4e007d1d8c9cce84e72af8c2 = $(`<div id="html_32b76def4e007d1d8c9cce84e72af8c2" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_0a26305cbd63e8757b61b521b4c47a03.setContent(html_32b76def4e007d1d8c9cce84e72af8c2);
             
         
 
-        marker_0409e620c43e50b5178dbeaf1f3ddb44.bindPopup(popup_9744809f7727ddcd907c1ccd6b1802b5)
+        marker_72aedbd51d66dcfb725aee995a373ef7.bindPopup(popup_0a26305cbd63e8757b61b521b4c47a03)
         ;
 
         
     
     
-            marker_0409e620c43e50b5178dbeaf1f3ddb44.bindTooltip(
+            marker_72aedbd51d66dcfb725aee995a373ef7.bindTooltip(
                 `<div>
                      爆心地公園
                  </div>`,
@@ -411,34 +427,34 @@
             );
         
     
-            var marker_4400bd1995831c5000ddaf41841aeb22 = L.marker(
+            var marker_e05d2c7b85db60071831e38c135998f6 = L.marker(
                 [32.77565821, 129.8630685],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_3acd03df25aaf3f1b6b045f0bff69c99 = L.AwesomeMarkers.icon(
+            var icon_9ee391ebc7984b3baf78ff9decb5bf1f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_4400bd1995831c5000ddaf41841aeb22.setIcon(icon_3acd03df25aaf3f1b6b045f0bff69c99);
+            marker_e05d2c7b85db60071831e38c135998f6.setIcon(icon_9ee391ebc7984b3baf78ff9decb5bf1f);
         
     
-        var popup_ef17fee82cbbcf58b98392fea6fb92d6 = L.popup({"maxWidth": "100%"});
+        var popup_0c6d8381784cf58ac71d2de46a3fbba3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_d5dc47114adaa63bf818fec7c73a3371 = $(`<div id="html_d5dc47114adaa63bf818fec7c73a3371" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_ef17fee82cbbcf58b98392fea6fb92d6.setContent(html_d5dc47114adaa63bf818fec7c73a3371);
+                var html_2d1a657195fbfb30690f83d6317cfc02 = $(`<div id="html_2d1a657195fbfb30690f83d6317cfc02" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_0c6d8381784cf58ac71d2de46a3fbba3.setContent(html_2d1a657195fbfb30690f83d6317cfc02);
             
         
 
-        marker_4400bd1995831c5000ddaf41841aeb22.bindPopup(popup_ef17fee82cbbcf58b98392fea6fb92d6)
+        marker_e05d2c7b85db60071831e38c135998f6.bindPopup(popup_0c6d8381784cf58ac71d2de46a3fbba3)
         ;
 
         
     
     
-            marker_4400bd1995831c5000ddaf41841aeb22.bindTooltip(
+            marker_e05d2c7b85db60071831e38c135998f6.bindTooltip(
                 `<div>
                      平和の泉
                  </div>`,
@@ -446,34 +462,34 @@
             );
         
     
-            var marker_61b8b68dd6b9fd5f241eb3df3186cd92 = L.marker(
+            var marker_ba407ce08c1df6458182c832583ef189 = L.marker(
                 [32.76804315, 129.8672196],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_8cc1a75c695169fead63bebed075dd53 = L.AwesomeMarkers.icon(
+            var icon_2b71a18d25ff4e9f57615a85d3670039 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_61b8b68dd6b9fd5f241eb3df3186cd92.setIcon(icon_8cc1a75c695169fead63bebed075dd53);
+            marker_ba407ce08c1df6458182c832583ef189.setIcon(icon_2b71a18d25ff4e9f57615a85d3670039);
         
     
-        var popup_06aaae9f0f0237f127d15063981685e1 = L.popup({"maxWidth": "100%"});
+        var popup_d2b543a40ff710761b7e1fd640b24c78 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_00e5d67556f8ff3abc60ae9c7176dd9e = $(`<div id="html_00e5d67556f8ff3abc60ae9c7176dd9e" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_06aaae9f0f0237f127d15063981685e1.setContent(html_00e5d67556f8ff3abc60ae9c7176dd9e);
+                var html_d8c075e25e76fa0919c38334af5bcf64 = $(`<div id="html_d8c075e25e76fa0919c38334af5bcf64" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_d2b543a40ff710761b7e1fd640b24c78.setContent(html_d8c075e25e76fa0919c38334af5bcf64);
             
         
 
-        marker_61b8b68dd6b9fd5f241eb3df3186cd92.bindPopup(popup_06aaae9f0f0237f127d15063981685e1)
+        marker_ba407ce08c1df6458182c832583ef189.bindPopup(popup_d2b543a40ff710761b7e1fd640b24c78)
         ;
 
         
     
     
-            marker_61b8b68dd6b9fd5f241eb3df3186cd92.bindTooltip(
+            marker_ba407ce08c1df6458182c832583ef189.bindTooltip(
                 `<div>
                      山王神社二の鳥居（長崎原爆遺跡）
                  </div>`,
@@ -481,34 +497,34 @@
             );
         
     
-            var marker_b250b98b4b07de6d52d6c9589e839a18 = L.marker(
+            var marker_3f6c2c9dbc2d0fb0a1ef890a9b0502e3 = L.marker(
                 [32.7770102, 129.8685038],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_c18fa19e0d6864df60d638282642bcde = L.AwesomeMarkers.icon(
+            var icon_5ffd966f61f54d1abe98185eae7fe554 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_b250b98b4b07de6d52d6c9589e839a18.setIcon(icon_c18fa19e0d6864df60d638282642bcde);
+            marker_3f6c2c9dbc2d0fb0a1ef890a9b0502e3.setIcon(icon_5ffd966f61f54d1abe98185eae7fe554);
         
     
-        var popup_5913f1c8903f1c49afd11ee841509b38 = L.popup({"maxWidth": "100%"});
+        var popup_b38f983781b43d9855df5bb850a241af = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_986977286c7010ff285c16803584f142 = $(`<div id="html_986977286c7010ff285c16803584f142" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_5913f1c8903f1c49afd11ee841509b38.setContent(html_986977286c7010ff285c16803584f142);
+                var html_14765b338688a97a42f811080937b7a7 = $(`<div id="html_14765b338688a97a42f811080937b7a7" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_b38f983781b43d9855df5bb850a241af.setContent(html_14765b338688a97a42f811080937b7a7);
             
         
 
-        marker_b250b98b4b07de6d52d6c9589e839a18.bindPopup(popup_5913f1c8903f1c49afd11ee841509b38)
+        marker_3f6c2c9dbc2d0fb0a1ef890a9b0502e3.bindPopup(popup_b38f983781b43d9855df5bb850a241af)
         ;
 
         
     
     
-            marker_b250b98b4b07de6d52d6c9589e839a18.bindTooltip(
+            marker_3f6c2c9dbc2d0fb0a1ef890a9b0502e3.bindTooltip(
                 `<div>
                      カトリック浦上教会（浦上天主堂）
                  </div>`,
@@ -516,34 +532,34 @@
             );
         
     
-            var marker_8e35c06301137840e2f2656a848bbdf0 = L.marker(
+            var marker_487c1b7c3bfd0599f1f8db1ed813c8c1 = L.marker(
                 [32.77710225, 129.8630507],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_d647902241073f8f4d87a43951f298c7 = L.AwesomeMarkers.icon(
+            var icon_1a0c342df9fc57bf765027415f6bae6d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_8e35c06301137840e2f2656a848bbdf0.setIcon(icon_d647902241073f8f4d87a43951f298c7);
+            marker_487c1b7c3bfd0599f1f8db1ed813c8c1.setIcon(icon_1a0c342df9fc57bf765027415f6bae6d);
         
     
-        var popup_6837a040f80eb1d6d1b763f5ea527d95 = L.popup({"maxWidth": "100%"});
+        var popup_50c16e676fb01c6af59a33e81316ad87 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_dc944f8ee8c14370e86f3091da4d29a5 = $(`<div id="html_dc944f8ee8c14370e86f3091da4d29a5" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_6837a040f80eb1d6d1b763f5ea527d95.setContent(html_dc944f8ee8c14370e86f3091da4d29a5);
+                var html_cb6bd73aa56961572d472caa1e87a46b = $(`<div id="html_cb6bd73aa56961572d472caa1e87a46b" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_50c16e676fb01c6af59a33e81316ad87.setContent(html_cb6bd73aa56961572d472caa1e87a46b);
             
         
 
-        marker_8e35c06301137840e2f2656a848bbdf0.bindPopup(popup_6837a040f80eb1d6d1b763f5ea527d95)
+        marker_487c1b7c3bfd0599f1f8db1ed813c8c1.bindPopup(popup_50c16e676fb01c6af59a33e81316ad87)
         ;
 
         
     
     
-            marker_8e35c06301137840e2f2656a848bbdf0.bindTooltip(
+            marker_487c1b7c3bfd0599f1f8db1ed813c8c1.bindTooltip(
                 `<div>
                      平和公園
                  </div>`,
@@ -551,34 +567,34 @@
             );
         
     
-            var marker_3ed288afc994af25e389b3307b32dc32 = L.marker(
+            var marker_f25bb67374795e0c4add672d2c84215b = L.marker(
                 [32.77763606, 129.8642782],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_b55007bfac340cdc87fa349644f71654 = L.AwesomeMarkers.icon(
+            var icon_d5d9b47adec9b80d074a2e3fac880abb = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_3ed288afc994af25e389b3307b32dc32.setIcon(icon_b55007bfac340cdc87fa349644f71654);
+            marker_f25bb67374795e0c4add672d2c84215b.setIcon(icon_d5d9b47adec9b80d074a2e3fac880abb);
         
     
-        var popup_4192a95cdb6371b2bdf781514a4a922f = L.popup({"maxWidth": "100%"});
+        var popup_e6273ca1d398856b5d246b588bc91bf4 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f88e053b6ab6500bf60129ff859d20cc = $(`<div id="html_f88e053b6ab6500bf60129ff859d20cc" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_4192a95cdb6371b2bdf781514a4a922f.setContent(html_f88e053b6ab6500bf60129ff859d20cc);
+                var html_e270f718fc4d652dc5995e26c243cf77 = $(`<div id="html_e270f718fc4d652dc5995e26c243cf77" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_e6273ca1d398856b5d246b588bc91bf4.setContent(html_e270f718fc4d652dc5995e26c243cf77);
             
         
 
-        marker_3ed288afc994af25e389b3307b32dc32.bindPopup(popup_4192a95cdb6371b2bdf781514a4a922f)
+        marker_f25bb67374795e0c4add672d2c84215b.bindPopup(popup_e6273ca1d398856b5d246b588bc91bf4)
         ;
 
         
     
     
-            marker_3ed288afc994af25e389b3307b32dc32.bindTooltip(
+            marker_f25bb67374795e0c4add672d2c84215b.bindTooltip(
                 `<div>
                      平和祈念像
                  </div>`,
@@ -586,39 +602,39 @@
             );
         
     
-            var marker_a4d9184c04068c016010285e99867e72 = L.marker(
+            var marker_0364935c1569eb51d543c614892abe50 = L.marker(
                 [26.09661602, 127.6906692],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_80eae4c2fa088594012fd46e236699af = L.AwesomeMarkers.icon(
+            var icon_6355b3a38e0a4422ec3c966f384a5654 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a4d9184c04068c016010285e99867e72.setIcon(icon_80eae4c2fa088594012fd46e236699af);
+            marker_0364935c1569eb51d543c614892abe50.setIcon(icon_6355b3a38e0a4422ec3c966f384a5654);
         
     
-        var popup_465602046fa388d516b6aab270f6a179 = L.popup({"maxWidth": "100%"});
+        var popup_a653b1d075f05bd7da95be86e45adfd2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9a610589796821b8ea4da82708eb0ca3 = $(`<div id="html_9a610589796821b8ea4da82708eb0ca3" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】沖縄県糸満市字伊原671-1
+                var html_f7d8088ffdacf1a9b20c17e1816b9e67 = $(`<div id="html_f7d8088ffdacf1a9b20c17e1816b9e67" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】沖縄県糸満市字伊原671-1
  【営業時間】9時～17時25分（入館は17時まで）
  【定休日】年中無休
  【利用料金】大人310円　／　高校生210円　／　小・中学生110円
  【駐車場】無料
  【アクセス方法】那覇空港から約30分、沖縄自動車道 豊見城ICまたは名嘉地ICから車で約30分。　　　　　　　　　　　　　　　　　　　　　ひめゆりの塔は、沖縄戦で亡くなったひめゆり学徒や教師達の鎮魂のための慰霊碑です。 ひめゆり平和祈念資料館の館内は全部で６つの展示室で構成されており、貴重な証言などの資料がわかりやすくまとめられています。 戦前の女学生たちの学園生活から、どのように戦争に突入し、戦中にどんな体験をしたのか、そして戦争とはどういうものであったのかが時系列に沿って展示されています。</div></div>`)[0];
-                popup_465602046fa388d516b6aab270f6a179.setContent(html_9a610589796821b8ea4da82708eb0ca3);
+                popup_a653b1d075f05bd7da95be86e45adfd2.setContent(html_f7d8088ffdacf1a9b20c17e1816b9e67);
             
         
 
-        marker_a4d9184c04068c016010285e99867e72.bindPopup(popup_465602046fa388d516b6aab270f6a179)
+        marker_0364935c1569eb51d543c614892abe50.bindPopup(popup_a653b1d075f05bd7da95be86e45adfd2)
         ;
 
         
     
     
-            marker_a4d9184c04068c016010285e99867e72.bindTooltip(
+            marker_0364935c1569eb51d543c614892abe50.bindTooltip(
                 `<div>
                      ひめゆりの塔
                  </div>`,
@@ -626,34 +642,34 @@
             );
         
     
-            var marker_f5a4d22ea615d7d5d65310f6b3a77e62 = L.marker(
+            var marker_b718c88762e54cf963940c6c7a75597c = L.marker(
                 [26.09649076, 127.6902615],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_ef6d16d71ae5668e804aa83092e9f805 = L.AwesomeMarkers.icon(
+            var icon_0fd908b593506e0a6f2458a2232d83ca = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
             );
-            marker_f5a4d22ea615d7d5d65310f6b3a77e62.setIcon(icon_ef6d16d71ae5668e804aa83092e9f805);
+            marker_b718c88762e54cf963940c6c7a75597c.setIcon(icon_0fd908b593506e0a6f2458a2232d83ca);
         
     
-        var popup_4989d1b02a396bfde32ff7d8a8b17c28 = L.popup({"maxWidth": "100%"});
+        var popup_d9ea438fb7aec0865045374690ffe96f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2a28b724fc369ce051d5adb318e079a4 = $(`<div id="html_2a28b724fc369ce051d5adb318e079a4" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_4989d1b02a396bfde32ff7d8a8b17c28.setContent(html_2a28b724fc369ce051d5adb318e079a4);
+                var html_31fdef3109ffe1fd073052c244e90f8b = $(`<div id="html_31fdef3109ffe1fd073052c244e90f8b" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_d9ea438fb7aec0865045374690ffe96f.setContent(html_31fdef3109ffe1fd073052c244e90f8b);
             
         
 
-        marker_f5a4d22ea615d7d5d65310f6b3a77e62.bindPopup(popup_4989d1b02a396bfde32ff7d8a8b17c28)
+        marker_b718c88762e54cf963940c6c7a75597c.bindPopup(popup_d9ea438fb7aec0865045374690ffe96f)
         ;
 
         
     
     
-            marker_f5a4d22ea615d7d5d65310f6b3a77e62.bindTooltip(
+            marker_b718c88762e54cf963940c6c7a75597c.bindTooltip(
                 `<div>
                      ひめゆり平和祈念資料館
                  </div>`,
@@ -661,34 +677,34 @@
             );
         
     
-            var marker_e2c156ad1345e53b9d2eabe82069a14d = L.marker(
+            var marker_c0fd554b6dbefa1aad802bd406529024 = L.marker(
                 [26.09503586, 127.6933192],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_af6cca210444c4ea82f7f61bb20e0053 = L.AwesomeMarkers.icon(
+            var icon_40759c0f2b7b1b135c03861fff3464b3 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
             );
-            marker_e2c156ad1345e53b9d2eabe82069a14d.setIcon(icon_af6cca210444c4ea82f7f61bb20e0053);
+            marker_c0fd554b6dbefa1aad802bd406529024.setIcon(icon_40759c0f2b7b1b135c03861fff3464b3);
         
     
-        var popup_bd31b87f3b92280e44bb424013c25477 = L.popup({"maxWidth": "100%"});
+        var popup_934ba1987776eff3a239f01f559812f7 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ba1ac269767190d0e0464f95274e3ba8 = $(`<div id="html_ba1ac269767190d0e0464f95274e3ba8" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_bd31b87f3b92280e44bb424013c25477.setContent(html_ba1ac269767190d0e0464f95274e3ba8);
+                var html_60b29703befa400d872f7a3112b563bc = $(`<div id="html_60b29703befa400d872f7a3112b563bc" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_934ba1987776eff3a239f01f559812f7.setContent(html_60b29703befa400d872f7a3112b563bc);
             
         
 
-        marker_e2c156ad1345e53b9d2eabe82069a14d.bindPopup(popup_bd31b87f3b92280e44bb424013c25477)
+        marker_c0fd554b6dbefa1aad802bd406529024.bindPopup(popup_934ba1987776eff3a239f01f559812f7)
         ;
 
         
     
     
-            marker_e2c156ad1345e53b9d2eabe82069a14d.bindTooltip(
+            marker_c0fd554b6dbefa1aad802bd406529024.bindTooltip(
                 `<div>
                      ひむかいの塔
                  </div>`,
@@ -696,34 +712,34 @@
             );
         
     
-            var marker_5910297acbbd3f444183ed6bd19a6422 = L.marker(
+            var marker_78a4e71ce20dd8e152ea366edb84d094 = L.marker(
                 [26.09709777, 127.6918065],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_b3f4b3fd63a0aa0e7bf6257d4eebb285 = L.AwesomeMarkers.icon(
+            var icon_5091e6e53bef5b7473234703986b2df8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
             );
-            marker_5910297acbbd3f444183ed6bd19a6422.setIcon(icon_b3f4b3fd63a0aa0e7bf6257d4eebb285);
+            marker_78a4e71ce20dd8e152ea366edb84d094.setIcon(icon_5091e6e53bef5b7473234703986b2df8);
         
     
-        var popup_174e2a4ff2aaf9f24f35c76f98553529 = L.popup({"maxWidth": "100%"});
+        var popup_2e042955851696b8f58f0c4480ddbd68 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_e19d69d44c7a59944f138d7af6801d45 = $(`<div id="html_e19d69d44c7a59944f138d7af6801d45" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_174e2a4ff2aaf9f24f35c76f98553529.setContent(html_e19d69d44c7a59944f138d7af6801d45);
+                var html_d4ab22bc4db68af1b44b3e14ed2fbdee = $(`<div id="html_d4ab22bc4db68af1b44b3e14ed2fbdee" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_2e042955851696b8f58f0c4480ddbd68.setContent(html_d4ab22bc4db68af1b44b3e14ed2fbdee);
             
         
 
-        marker_5910297acbbd3f444183ed6bd19a6422.bindPopup(popup_174e2a4ff2aaf9f24f35c76f98553529)
+        marker_78a4e71ce20dd8e152ea366edb84d094.bindPopup(popup_2e042955851696b8f58f0c4480ddbd68)
         ;
 
         
     
     
-            marker_5910297acbbd3f444183ed6bd19a6422.bindTooltip(
+            marker_78a4e71ce20dd8e152ea366edb84d094.bindTooltip(
                 `<div>
                      梯梧之塔
                  </div>`,
@@ -731,34 +747,34 @@
             );
         
     
-            var marker_2f03b46adc57f1489aad37957b6cbf8a = L.marker(
+            var marker_0a6ac7c5daee4b5ac6f20c0a67186a95 = L.marker(
                 [26.09670041, 127.6855839],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_ed02aaebe7b7cf2b113383ddca43b910 = L.AwesomeMarkers.icon(
+            var icon_08743b839656fb10cd83d3e3a7111224 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
             );
-            marker_2f03b46adc57f1489aad37957b6cbf8a.setIcon(icon_ed02aaebe7b7cf2b113383ddca43b910);
+            marker_0a6ac7c5daee4b5ac6f20c0a67186a95.setIcon(icon_08743b839656fb10cd83d3e3a7111224);
         
     
-        var popup_6b7f50f7a8651083e7ab9d0a28eb23b7 = L.popup({"maxWidth": "100%"});
+        var popup_0c71c1e4f5190a0c4d3e3e16e782fd6e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_7d78b27a2e38a94605023784f28f4a64 = $(`<div id="html_7d78b27a2e38a94605023784f28f4a64" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_6b7f50f7a8651083e7ab9d0a28eb23b7.setContent(html_7d78b27a2e38a94605023784f28f4a64);
+                var html_dc2f0d18765005b3c8cba0c4c6577706 = $(`<div id="html_dc2f0d18765005b3c8cba0c4c6577706" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_0c71c1e4f5190a0c4d3e3e16e782fd6e.setContent(html_dc2f0d18765005b3c8cba0c4c6577706);
             
         
 
-        marker_2f03b46adc57f1489aad37957b6cbf8a.bindPopup(popup_6b7f50f7a8651083e7ab9d0a28eb23b7)
+        marker_0a6ac7c5daee4b5ac6f20c0a67186a95.bindPopup(popup_0c71c1e4f5190a0c4d3e3e16e782fd6e)
         ;
 
         
     
     
-            marker_2f03b46adc57f1489aad37957b6cbf8a.bindTooltip(
+            marker_0a6ac7c5daee4b5ac6f20c0a67186a95.bindTooltip(
                 `<div>
                      琉風之碑
                  </div>`,
@@ -766,34 +782,34 @@
             );
         
     
-            var marker_226c7c61d6aefcfcdbdd2ae312e5f9ca = L.marker(
+            var marker_7b2ae358405c07e33b162746bb13a5fd = L.marker(
                 [32.20371293, 130.3746995],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_c31ec5bc7faa807ed5b77f73e0bfb71d = L.AwesomeMarkers.icon(
+            var icon_28401f4eed7fcd92840220c1150a8611 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_226c7c61d6aefcfcdbdd2ae312e5f9ca.setIcon(icon_c31ec5bc7faa807ed5b77f73e0bfb71d);
+            marker_7b2ae358405c07e33b162746bb13a5fd.setIcon(icon_28401f4eed7fcd92840220c1150a8611);
         
     
-        var popup_80b525d9315025c72e570d47df97ab93 = L.popup({"maxWidth": "100%"});
+        var popup_1fc682e24a6888dd46c437505c46b4a1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_5f2f93fb85f9184deadf5b3ccd77dabe = $(`<div id="html_5f2f93fb85f9184deadf5b3ccd77dabe" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】熊本県水俣市明神町53番地 【営業時間】9時～17時 【定休日】月曜日（月曜が祝日の場合はその翌日）、年末年始（12/29～1/3） 【利用料金】無料 【駐車場】無料 水俣病資料館は、水俣病を風化させることなく、公害の原点といわれる水俣病の貴重な資料を後世に保管する目的で建設されています。 世界のどの地域でもこのような悲惨な公害が発生してほしくないという思いから、水俣病の恐ろしさを伝え、水俣病患者さんの痛みや差別のつらい体験などを展示や語り部などで紹介してています。</div></div>`)[0];
-                popup_80b525d9315025c72e570d47df97ab93.setContent(html_5f2f93fb85f9184deadf5b3ccd77dabe);
+                var html_85a9d901b67d53ab4694f5b72e6e416d = $(`<div id="html_85a9d901b67d53ab4694f5b72e6e416d" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】熊本県水俣市明神町53番地 【営業時間】9時～17時 【定休日】月曜日（月曜が祝日の場合はその翌日）、年末年始（12/29～1/3） 【利用料金】無料 【駐車場】無料 水俣病資料館は、水俣病を風化させることなく、公害の原点といわれる水俣病の貴重な資料を後世に保管する目的で建設されています。 世界のどの地域でもこのような悲惨な公害が発生してほしくないという思いから、水俣病の恐ろしさを伝え、水俣病患者さんの痛みや差別のつらい体験などを展示や語り部などで紹介してています。</div></div>`)[0];
+                popup_1fc682e24a6888dd46c437505c46b4a1.setContent(html_85a9d901b67d53ab4694f5b72e6e416d);
             
         
 
-        marker_226c7c61d6aefcfcdbdd2ae312e5f9ca.bindPopup(popup_80b525d9315025c72e570d47df97ab93)
+        marker_7b2ae358405c07e33b162746bb13a5fd.bindPopup(popup_1fc682e24a6888dd46c437505c46b4a1)
         ;
 
         
     
     
-            marker_226c7c61d6aefcfcdbdd2ae312e5f9ca.bindTooltip(
+            marker_7b2ae358405c07e33b162746bb13a5fd.bindTooltip(
                 `<div>
                      水俣市立水俣病資料館
                  </div>`,
@@ -801,34 +817,34 @@
             );
         
     
-            var marker_69918b466b97d69485cc8bf6973cde9b = L.marker(
+            var marker_401d5cb5e857cec382f35d41878d4c88 = L.marker(
                 [34.69848324, 135.21],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_859c6316cf64ce66a65e9e1060e688b5 = L.AwesomeMarkers.icon(
+            var icon_02bf1110ce76cc741cdc028aa54dacf9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_69918b466b97d69485cc8bf6973cde9b.setIcon(icon_859c6316cf64ce66a65e9e1060e688b5);
+            marker_401d5cb5e857cec382f35d41878d4c88.setIcon(icon_02bf1110ce76cc741cdc028aa54dacf9);
         
     
-        var popup_95d9472a1c831ceabb5fc8e4990f8f08 = L.popup({"maxWidth": "100%"});
+        var popup_3dff6ea57cbfb425d762d96215a969e3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f537c2baa5089a091d844ffce72de061 = $(`<div id="html_f537c2baa5089a091d844ffce72de061" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】兵庫県神戸市中央区脇浜海岸通1-5-2 【営業時間】9時～17時30分（入館は16時30分まで） ※7～9月は9時30分～18時（入館は17時まで） ※金・土曜日は9時30分～19時（入館は18時まで） 【定休日】毎週月曜日 （月曜日が祝日の場合は翌平日）、12月31日と1月1日 【利用料金】大人600円、大学生450円、高校生、小中学生無料 【駐車場】有料　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　人と防災未来センターでは、阪神・淡路大震災で起こったことや、子どもたちに伝えなければならないことを展示してあります。 二度と再びこのような災害が起こらないように、災害に強いまちづくり、地域づくりに必要ないろいろな知恵や知識をわかりやすく発信しています。</div></div>`)[0];
-                popup_95d9472a1c831ceabb5fc8e4990f8f08.setContent(html_f537c2baa5089a091d844ffce72de061);
+                var html_3bcf56a00d7592d4dd746bb046a2d900 = $(`<div id="html_3bcf56a00d7592d4dd746bb046a2d900" style="width: 100.0%; height: 100.0%;"><div style="width:350px">【所在】兵庫県神戸市中央区脇浜海岸通1-5-2 【営業時間】9時～17時30分（入館は16時30分まで） ※7～9月は9時30分～18時（入館は17時まで） ※金・土曜日は9時30分～19時（入館は18時まで） 【定休日】毎週月曜日 （月曜日が祝日の場合は翌平日）、12月31日と1月1日 【利用料金】大人600円、大学生450円、高校生、小中学生無料 【駐車場】有料　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　人と防災未来センターでは、阪神・淡路大震災で起こったことや、子どもたちに伝えなければならないことを展示してあります。 二度と再びこのような災害が起こらないように、災害に強いまちづくり、地域づくりに必要ないろいろな知恵や知識をわかりやすく発信しています。</div></div>`)[0];
+                popup_3dff6ea57cbfb425d762d96215a969e3.setContent(html_3bcf56a00d7592d4dd746bb046a2d900);
             
         
 
-        marker_69918b466b97d69485cc8bf6973cde9b.bindPopup(popup_95d9472a1c831ceabb5fc8e4990f8f08)
+        marker_401d5cb5e857cec382f35d41878d4c88.bindPopup(popup_3dff6ea57cbfb425d762d96215a969e3)
         ;
 
         
     
     
-            marker_69918b466b97d69485cc8bf6973cde9b.bindTooltip(
+            marker_401d5cb5e857cec382f35d41878d4c88.bindTooltip(
                 `<div>
                      阪神・淡路大震災記念 人と防災未来センター
                  </div>`,
@@ -836,34 +852,34 @@
             );
         
     
-            var marker_f754493f97ad3fd4e2d6ad830d036762 = L.marker(
+            var marker_3d4db7d82f36380ae2970bc80cbca39a = L.marker(
                 [35.68604378, 139.8223561],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_02f396149ddfeb2429c8cc15e97c9645 = L.AwesomeMarkers.icon(
+            var icon_a50372f6972ded1d1a5b5b2fe1b8d4cc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_f754493f97ad3fd4e2d6ad830d036762.setIcon(icon_02f396149ddfeb2429c8cc15e97c9645);
+            marker_3d4db7d82f36380ae2970bc80cbca39a.setIcon(icon_a50372f6972ded1d1a5b5b2fe1b8d4cc);
         
     
-        var popup_4bc3b858b54fa60c9f3d94d5ddd17d07 = L.popup({"maxWidth": "100%"});
+        var popup_c9204e2609f97fd1c57e379a8be9d10b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_26c0dc60b22d770390ac553a4c07be4b = $(`<div id="html_26c0dc60b22d770390ac553a4c07be4b" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_4bc3b858b54fa60c9f3d94d5ddd17d07.setContent(html_26c0dc60b22d770390ac553a4c07be4b);
+                var html_e85e820a4480df988b700da459734bec = $(`<div id="html_e85e820a4480df988b700da459734bec" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_c9204e2609f97fd1c57e379a8be9d10b.setContent(html_e85e820a4480df988b700da459734bec);
             
         
 
-        marker_f754493f97ad3fd4e2d6ad830d036762.bindPopup(popup_4bc3b858b54fa60c9f3d94d5ddd17d07)
+        marker_3d4db7d82f36380ae2970bc80cbca39a.bindPopup(popup_c9204e2609f97fd1c57e379a8be9d10b)
         ;
 
         
     
     
-            marker_f754493f97ad3fd4e2d6ad830d036762.bindTooltip(
+            marker_3d4db7d82f36380ae2970bc80cbca39a.bindTooltip(
                 `<div>
                      東京大空襲・戦災資料センター
                  </div>`,
@@ -871,34 +887,34 @@
             );
         
     
-            var marker_91ffa1508cd65374f4f9cfbd50470d2b = L.marker(
+            var marker_d7753800b048acac5aee9a5630001e50 = L.marker(
                 [35.69630009, 139.6877886],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_50783d727449f476d703265600f058b7 = L.AwesomeMarkers.icon(
+            var icon_55c2040c1527cc970d96d51feb97fcd2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_91ffa1508cd65374f4f9cfbd50470d2b.setIcon(icon_50783d727449f476d703265600f058b7);
+            marker_d7753800b048acac5aee9a5630001e50.setIcon(icon_55c2040c1527cc970d96d51feb97fcd2);
         
     
-        var popup_a2a73962ec5431f7f76d594112df3e21 = L.popup({"maxWidth": "100%"});
+        var popup_8f1ccedb12ea495d354888a31688421f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_26e4fefa7082cff8f9212b97672a92d4 = $(`<div id="html_26e4fefa7082cff8f9212b97672a92d4" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_a2a73962ec5431f7f76d594112df3e21.setContent(html_26e4fefa7082cff8f9212b97672a92d4);
+                var html_2f791774397db071c3440d815bca91ab = $(`<div id="html_2f791774397db071c3440d815bca91ab" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_8f1ccedb12ea495d354888a31688421f.setContent(html_2f791774397db071c3440d815bca91ab);
             
         
 
-        marker_91ffa1508cd65374f4f9cfbd50470d2b.bindPopup(popup_a2a73962ec5431f7f76d594112df3e21)
+        marker_d7753800b048acac5aee9a5630001e50.bindPopup(popup_8f1ccedb12ea495d354888a31688421f)
         ;
 
         
     
     
-            marker_91ffa1508cd65374f4f9cfbd50470d2b.bindTooltip(
+            marker_d7753800b048acac5aee9a5630001e50.bindTooltip(
                 `<div>
                      平和祈念展示資料館
                  </div>`,
@@ -906,34 +922,34 @@
             );
         
     
-            var marker_4ec83977a7592fda3f4f376de4946b5e = L.marker(
+            var marker_14f4a41d9375e9ae8895090fdc1bd8fa = L.marker(
                 [35.7138638, 139.7159411],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_12f7ea6d26150bf8de81db08cccaf951 = L.AwesomeMarkers.icon(
+            var icon_71bcbe5b2688fc6cb45bb2d5670b65f3 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_4ec83977a7592fda3f4f376de4946b5e.setIcon(icon_12f7ea6d26150bf8de81db08cccaf951);
+            marker_14f4a41d9375e9ae8895090fdc1bd8fa.setIcon(icon_71bcbe5b2688fc6cb45bb2d5670b65f3);
         
     
-        var popup_2b1766bbf3be7d3ae0b0358eb9d0b4d1 = L.popup({"maxWidth": "100%"});
+        var popup_2bc915982faa54b9b563a67c3fad1cd1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_38540b56832ba7277e3aed968b968fc2 = $(`<div id="html_38540b56832ba7277e3aed968b968fc2" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_2b1766bbf3be7d3ae0b0358eb9d0b4d1.setContent(html_38540b56832ba7277e3aed968b968fc2);
+                var html_a8ab85915e7f4274a00ca42ddd9bb412 = $(`<div id="html_a8ab85915e7f4274a00ca42ddd9bb412" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_2bc915982faa54b9b563a67c3fad1cd1.setContent(html_a8ab85915e7f4274a00ca42ddd9bb412);
             
         
 
-        marker_4ec83977a7592fda3f4f376de4946b5e.bindPopup(popup_2b1766bbf3be7d3ae0b0358eb9d0b4d1)
+        marker_14f4a41d9375e9ae8895090fdc1bd8fa.bindPopup(popup_2bc915982faa54b9b563a67c3fad1cd1)
         ;
 
         
     
     
-            marker_4ec83977a7592fda3f4f376de4946b5e.bindTooltip(
+            marker_14f4a41d9375e9ae8895090fdc1bd8fa.bindTooltip(
                 `<div>
                      アクティブ・ミュージアム「女たちの戦争と平和資料館」
                  </div>`,
@@ -941,34 +957,34 @@
             );
         
     
-            var marker_55bfca7efa3bdad2d3cca88245e530e3 = L.marker(
+            var marker_fb27b178f1c248e80a76f18b0a8dc779 = L.marker(
                 [35.70466425, 139.7543932],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_24e2ee62a11e1fecb11bcab36e96ead0 = L.AwesomeMarkers.icon(
+            var icon_6c2af8d23eca264e39811b5b4bf1e0d1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_55bfca7efa3bdad2d3cca88245e530e3.setIcon(icon_24e2ee62a11e1fecb11bcab36e96ead0);
+            marker_fb27b178f1c248e80a76f18b0a8dc779.setIcon(icon_6c2af8d23eca264e39811b5b4bf1e0d1);
         
     
-        var popup_39920b04d05ec60ef7358154b8033388 = L.popup({"maxWidth": "100%"});
+        var popup_350c4681c153636ba1581868dc9cebfb = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ea10405f7b629437eeccf802811f5c2c = $(`<div id="html_ea10405f7b629437eeccf802811f5c2c" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_39920b04d05ec60ef7358154b8033388.setContent(html_ea10405f7b629437eeccf802811f5c2c);
+                var html_ad38c8b80327ea0175db6ec2d85bbe76 = $(`<div id="html_ad38c8b80327ea0175db6ec2d85bbe76" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_350c4681c153636ba1581868dc9cebfb.setContent(html_ad38c8b80327ea0175db6ec2d85bbe76);
             
         
 
-        marker_55bfca7efa3bdad2d3cca88245e530e3.bindPopup(popup_39920b04d05ec60ef7358154b8033388)
+        marker_fb27b178f1c248e80a76f18b0a8dc779.bindPopup(popup_350c4681c153636ba1581868dc9cebfb)
         ;
 
         
     
     
-            marker_55bfca7efa3bdad2d3cca88245e530e3.bindTooltip(
+            marker_fb27b178f1c248e80a76f18b0a8dc779.bindTooltip(
                 `<div>
                      しょうけい館（戦傷病者史料館）
                  </div>`,
@@ -976,34 +992,34 @@
             );
         
     
-            var marker_045c3a94856d93b60994244dd39ceb06 = L.marker(
+            var marker_cca0fc0a2da9f8cf851b89460e9cc21d = L.marker(
                 [35.7021045, 139.7436163],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_8c9cec2c9b3e4f541c2c1220538b9036 = L.AwesomeMarkers.icon(
+            var icon_35fc7b7aaf57c76fb059c243735817ea = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_045c3a94856d93b60994244dd39ceb06.setIcon(icon_8c9cec2c9b3e4f541c2c1220538b9036);
+            marker_cca0fc0a2da9f8cf851b89460e9cc21d.setIcon(icon_35fc7b7aaf57c76fb059c243735817ea);
         
     
-        var popup_f8c5b126ee1cdea86d762c33a881e3a0 = L.popup({"maxWidth": "100%"});
+        var popup_6565fe735369132012a5074675210288 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_304e52ba9ba4eca2822049017278183c = $(`<div id="html_304e52ba9ba4eca2822049017278183c" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_f8c5b126ee1cdea86d762c33a881e3a0.setContent(html_304e52ba9ba4eca2822049017278183c);
+                var html_ba427304f4eb6bf16158bf08d1058827 = $(`<div id="html_ba427304f4eb6bf16158bf08d1058827" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_6565fe735369132012a5074675210288.setContent(html_ba427304f4eb6bf16158bf08d1058827);
             
         
 
-        marker_045c3a94856d93b60994244dd39ceb06.bindPopup(popup_f8c5b126ee1cdea86d762c33a881e3a0)
+        marker_cca0fc0a2da9f8cf851b89460e9cc21d.bindPopup(popup_6565fe735369132012a5074675210288)
         ;
 
         
     
     
-            marker_045c3a94856d93b60994244dd39ceb06.bindTooltip(
+            marker_cca0fc0a2da9f8cf851b89460e9cc21d.bindTooltip(
                 `<div>
                      遊就館
                  </div>`,
@@ -1011,34 +1027,34 @@
             );
         
     
-            var marker_6215be38f01155b990092e64447d18ec = L.marker(
+            var marker_dc7ad5705ed777db55e661ca5df5552a = L.marker(
                 [36.34566495, 138.2000375],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_266863ee7a6d40c4935c59606713b6f1 = L.AwesomeMarkers.icon(
+            var icon_035cdb11ca9baa9a08915bd9ad5c0b9b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
             );
-            marker_6215be38f01155b990092e64447d18ec.setIcon(icon_266863ee7a6d40c4935c59606713b6f1);
+            marker_dc7ad5705ed777db55e661ca5df5552a.setIcon(icon_035cdb11ca9baa9a08915bd9ad5c0b9b);
         
     
-        var popup_fd67e1dc8cf68e755f728ab282cf3755 = L.popup({"maxWidth": "100%"});
+        var popup_4ce1287ad8d9621dcff4f6b6cf693d0c = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f49228508872c57e37b2a17787c7498a = $(`<div id="html_f49228508872c57e37b2a17787c7498a" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_fd67e1dc8cf68e755f728ab282cf3755.setContent(html_f49228508872c57e37b2a17787c7498a);
+                var html_700e0750f4776bc1a493f2e73c77ea03 = $(`<div id="html_700e0750f4776bc1a493f2e73c77ea03" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_4ce1287ad8d9621dcff4f6b6cf693d0c.setContent(html_700e0750f4776bc1a493f2e73c77ea03);
             
         
 
-        marker_6215be38f01155b990092e64447d18ec.bindPopup(popup_fd67e1dc8cf68e755f728ab282cf3755)
+        marker_dc7ad5705ed777db55e661ca5df5552a.bindPopup(popup_4ce1287ad8d9621dcff4f6b6cf693d0c)
         ;
 
         
     
     
-            marker_6215be38f01155b990092e64447d18ec.bindTooltip(
+            marker_dc7ad5705ed777db55e661ca5df5552a.bindTooltip(
                 `<div>
                      戦没画学生慰霊美術館 無言館
                  </div>`,
@@ -1046,39 +1062,60 @@
             );
         
     
-            var marker_90f04214a755851792b0fc45235a77c9 = L.marker(
+            var marker_38be661af049bb06878e130835d60880 = L.marker(
                 [36.34423261, 138.2006743],
                 {}
-            ).addTo(map_b284e0beaed7dec088f6ef9c716faf30);
+            ).addTo(map_81438f70fbf497269a2b70d061535c8f);
         
     
-            var icon_7d078a545cdc398af0b31e750e9e3b80 = L.AwesomeMarkers.icon(
+            var icon_29cb17a0566448dae8124ee69169a033 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
             );
-            marker_90f04214a755851792b0fc45235a77c9.setIcon(icon_7d078a545cdc398af0b31e750e9e3b80);
+            marker_38be661af049bb06878e130835d60880.setIcon(icon_29cb17a0566448dae8124ee69169a033);
         
     
-        var popup_b8880819500bdf6c8885d9e7a22747b8 = L.popup({"maxWidth": "100%"});
+        var popup_61532d220b21bdf2d93d625ce213c436 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_675cfe56f2b29991adbe9e98249976e7 = $(`<div id="html_675cfe56f2b29991adbe9e98249976e7" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
-                popup_b8880819500bdf6c8885d9e7a22747b8.setContent(html_675cfe56f2b29991adbe9e98249976e7);
+                var html_0615a5df6e500372908746aae249af0c = $(`<div id="html_0615a5df6e500372908746aae249af0c" style="width: 100.0%; height: 100.0%;"><div style="width:350px">nan</div></div>`)[0];
+                popup_61532d220b21bdf2d93d625ce213c436.setContent(html_0615a5df6e500372908746aae249af0c);
             
         
 
-        marker_90f04214a755851792b0fc45235a77c9.bindPopup(popup_b8880819500bdf6c8885d9e7a22747b8)
+        marker_38be661af049bb06878e130835d60880.bindPopup(popup_61532d220b21bdf2d93d625ce213c436)
         ;
 
         
     
     
-            marker_90f04214a755851792b0fc45235a77c9.bindTooltip(
+            marker_38be661af049bb06878e130835d60880.bindTooltip(
                 `<div>
                      傷ついた画布のドーム オリーヴの読書館
                  </div>`,
                 {"sticky": true}
             );
+        
+    
+            tile_layer_f1a89a2d8c379cd2c9366157cdae7bee.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_022421171a680fa6f4ffa1eada134f62.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_51bf973659480cdbef279336523105e2.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_f2bc7385f2ad6ede1a93c742a1e62512.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_6e2aa152a487c6dac52eb4bcbc6a27c8.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_f335cb5b8d2ffe5669cfbaa10a4bd654.addTo(map_81438f70fbf497269a2b70d061535c8f);
+        
+    
+            tile_layer_c4dc2b136d5c0f4671d00f032f025b7e.addTo(map_81438f70fbf497269a2b70d061535c8f);
         
 </script>
 </html>
